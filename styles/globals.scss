@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
+
+* {
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+.btn-gradient {
+  background: linear-gradient(96.22deg, #2c6deb -10.49%, #6bc6f9 126.04%),
+    #ffffff;
+}
+
+.htn-container {
+  @apply container mx-auto mt-14 flex flex-col items-center;
+}
+
+.htn-small {
+  @apply text-base font-medium text-[#98989E] md:text-xl;
+}
+
+.header-2 {
+  @apply w-[750px] text-center text-xl font-semibold leading-tight text-[#1F1F29] md:text-4xl;
+}
+
+.item-gradient-1 {
+  background: linear-gradient(180deg, #cbf4d2 0%, #b9efc2 100%);
+}
+
+.item-gradient-2 {
+  background: linear-gradient(180deg, #ffc7c3 0%, #ffc1d0 100%),
+    linear-gradient(180deg, #cbf4d2 0%, #b9efc2 100%);
+}
+
+.item-gradient-3 {
+  background: linear-gradient(180deg, #d0f0fe 0%, #bee9fd 100%),
+    linear-gradient(180deg, #cbf4d2 0%, #b9efc2 100%);
+}
+
+.item-gradient-4 {
+  background: linear-gradient(180deg, #fff4e3 0%, #ffd499 100%),
+    linear-gradient(180deg, #cbf4d2 0%, #b9efc2 100%);
+}
+
+.item-gradient-5 {
+  background: linear-gradient(180deg, #ddffe7 4.12%, #ecbaf0 100%);
+}
